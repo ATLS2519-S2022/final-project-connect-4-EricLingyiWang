@@ -7,7 +7,8 @@
  */
 public class Connect4Board
 {
-    private int rows, cols;
+    public static final Connect4Board id = null;
+	private int rows, cols;
     private int[] cells;
     private int totalCount;
     private int[] colCounts;
