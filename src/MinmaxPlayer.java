@@ -52,6 +52,7 @@ public class MinmaxPlayer implements Player
         	}
         }
         maxDepth++;
+        System.out.println("Minmax Max Depth: " + maxDepth);
         arb.setMove(maxCol);
        }
         

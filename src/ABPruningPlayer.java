@@ -54,6 +54,7 @@ public class ABPruningPlayer implements Player
         	}
         }
         maxDepth++;
+        System.out.println("AB pruning Max Depth: " + maxDepth);
         arb.setMove(maxCol);
        }
     }
